@@ -10,3 +10,7 @@ github_username:  scottianstewart
 
 # Build settings
 markdown: kramdown
+
+port: 3000
+
+paginate: 1
