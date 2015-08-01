@@ -13,4 +13,4 @@ markdown: kramdown
 
 port: 3000
 
-paginate: 1
+
