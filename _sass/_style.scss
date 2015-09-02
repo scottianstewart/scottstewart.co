@@ -92,6 +92,7 @@ nav {
 
 .resume {
 	margin: 30px auto;
+	display: none;
 
 	h2 {
 		color: #404040;
@@ -150,6 +151,7 @@ nav {
 		margin-top: 60px;
 		margin-bottom: 80px;
 		text-align: center;
+		display: none;
 
 			@media (max-width: 568px) {
 				margin-top: 30px;
@@ -184,6 +186,7 @@ nav {
 .portfolio {
 	min-height: 500px;
 	margin: 15px 0;
+	display: none;
 
 	@media (max-width: 568px) {
 		min-height: 900px;
