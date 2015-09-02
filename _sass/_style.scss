@@ -64,8 +64,9 @@ nav {
 			color: #404040;
 		}
 	
-		@media (max-width: 480px) {
+		@media (max-width: 320px) {
 			font-size: 14px;
+			padding: 5px;
 		}
 	}
 
@@ -75,8 +76,12 @@ nav {
 	margin: auto;
 	max-width: 600px;
 	h1 {
-		margin-top: 100px;
+		margin-top: 80px;
 		text-align: center;
+
+		@media (max-width: 320px) {
+			margin-top: 40px;
+		}
 	}
 }
 
@@ -107,10 +112,18 @@ nav {
 	.skills {
 		.list-left {
 			float: left;
+
+			@media (max-width: 320px) {
+				float: none;
+			}
 		}
 
 		.list-right {
 			float: right;
+
+			@media (max-width: 320px) {
+				float: none;
+			}
 		}
 
 		li {
@@ -121,6 +134,10 @@ nav {
 
 	.experience {
 		margin: 200px 0 150px 0;
+
+		@media (max-width: 320px) {
+			margin: 30px 0 150px 0;
+		}
 	}
 }
 
@@ -128,10 +145,18 @@ nav {
 		margin-top: 60px;
 		text-align: center;
 
+			@media (max-width: 320px) {
+				margin-top: 40px;
+			}
+
 			h4 {
 				font-weight: 300;
 				font-size: 24px;
 				margin-bottom: 60px;
+
+				@media (max-width: 320px) {
+					margin-bottom: 30px;
+				}
 			}
 
 			a {
@@ -148,7 +173,11 @@ nav {
 
 .portfolio {
 	min-height: 500px;
-	margin-top: 5px;
+	margin-top: 15px;
+
+	@media (max-width: 320px) {
+		min-height: 900px;
+	}
 
 	h2 {
 		color: #404040;
@@ -200,6 +229,10 @@ nav {
 		img {
 			height: 167.273px;
 			width: auto;
+
+			&:hover {
+			opacity: 0.7;
+		}
 		}
 
 		p {
