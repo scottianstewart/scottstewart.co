@@ -78,9 +78,16 @@ nav {
 	margin: auto;
 	max-width: 600px;
 	h1 {
-		margin-top: 80px;
-		text-align: center;
 		display: none;
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		-webkit-transform: translate(-50%, -50%);
+		    -ms-transform: translate(-50%, -50%);
+		        transform: translate(-50%, -50%);
+
 
 		@media (max-width: 568px) {
 			font-size: 20px;
@@ -291,16 +298,18 @@ nav {
 	}
 
 	.social {
-		text-align: right;
-		margin-top: 10px;
-		margin-right: 50px;
-		#twitter {
-			margin: 5px 30px 0 0;
-		}
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		right: 2%;
+		-webkit-transform: translate(0, -50%);
+		    -ms-transform: translate(0, -50%);
+		        transform: translate(0, -50%);
 
-		#github {
-			margin: 0 30px 0 0;
+		.icon {
+			margin-right: 12px;
 		}
+		
 
 		@media (max-width: 480px) {
 			text-align: center;
