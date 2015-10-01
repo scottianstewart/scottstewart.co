@@ -190,7 +190,7 @@ nav {
 	display: none;
 
 	@media (max-width: 568px) {
-		min-height: 900px;
+		min-height: 1600px;
 	}
 
 	h2 {
@@ -311,6 +311,7 @@ nav {
 			-webkit-transform: translate(-50%, -50%);
 		    -ms-transform: translate(-50%, -50%);
 		        transform: translate(-50%, -50%);
+		    margin-right: 0;
 		}
 	}	
 }
