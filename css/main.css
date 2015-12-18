@@ -15,7 +15,7 @@ a:hover {
  */
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 144px;
   line-height: 1.5;
   font-weight: 300;
   color: #515151;
@@ -6436,7 +6436,7 @@ h1 {
 
 p, ul li {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #515151; }
 
