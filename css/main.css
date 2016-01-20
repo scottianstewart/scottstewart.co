@@ -6498,10 +6498,7 @@ h4 {
   margin: 0 auto !important;
   display: block;}
 
-#colorful:hover {
-  color: tomato;
-  animation-name: none;
-   }
+
 
 @keyframes colorful {
   0% {
