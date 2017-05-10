@@ -1,32 +1,105 @@
-body {
-    background: #F6F6F6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+html {
+  background: #2F3031;
 }
 
-.main {
-    width: 400px;
-    height: auto;
+.body {
+    border: 16px solid #fff;
+    background: #2F3031;
+    transition: all .5s linear;
+    opacity: 0;
 }
 
-@media (max-width: 480px) {
-  .main {
-    padding: 0 24px;
-  }
+i {
+  font-size: 24px;
 }
 
-.social--links {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.body--active {
+  border: 16px solid #fff;
+  background: #2F3031;
+  transition: all .5s linear;
+  opacity: 1;
 }
 
-.social--link__image {
-    height: 32px;
+body .em {
+  opacity: 0;
 }
 
-.social--link:hover {
-    transform : scale(1.2);
+.body--active .em {
+  opacity: 1;
+}
+
+.content {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+li {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 16px;
+  line-height: 30px;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.social a:hover {
+  opacity: .9;
+}
+
+.social img {
+  width: 14px;
 }

@@ -1,28 +1,54 @@
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="icon" type="image/png" href="assets/favicon.ico">
-    <title>scott stewart</title>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:100|Poppins:300,500" rel="stylesheet">
+    <title>Scott Stewart - UI/UX Developer</title>
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-72099331-3', 'auto');
-    ga('send', 'pageview');
-
+      ga('create', 'UA-98877954-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>
+      window.onload = function(){
+         setInterval(function(){
+             document.getElementById('body').className = 'body--active';
+         }, 100);
+      };
     </script>
 </head>
-<body>
-    <div class="main">
-        <div>
-            <img src="assets/Asset 2.svg">
-        </div>
-        <div class="social--links">
-            <a href="https://dribbble.com/scottianstewart" target="_blank" class="social--link"><img src="assets/Asset 3.svg" class="social--link__image"></a>
-            <a href="https://www.instagram.com/scottianstewart/" target="_blank" class="social--link"><img src="assets/Asset 4.svg" class="social--link__image"></a>
-            <a href="https://twitter.com/sirscottstewart" target="_blank" class="social--link"><img src="assets/Asset 5.svg" class="social--link__image"></a>
-        </div>
+<body class="body" id="body">
+  <div class="content">
+    <div class="section">
+      <h1>Scott Stewart</h1>
+      <p>I design things for humans.</p>
+      <p>Currently doing UI/UX at <a href="http://synapsestudios.com" target="_blank">Synapse Studios</a> in Tempe, Arizona. <i>&#x1f525</i></p>
     </div>
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>User Interface Design</li>
+        <li>User Experience</li>
+        <li>Branding & Marketing</li>
+        <li>I can code (React.js, HTML, CSS)</li>
+      </ul>
+    </div>
+    <h2>Freelance</h2>
+    <p>Currently accepting small freelance projects.
+      <br>
+      <a href="mailto:scott@scottstewart.co">scott@scottstewart.co</a>
+    </p>
+    <div class="social">
+      <a href="mailto:scott@scottstewart.co"><img src="assets/email.png"></a>
+      <a href="http://dribbble.com/scottianstewart" target="_blank"><img src="assets/dribbble.png"></a>
+      <a href="http://instagram.com/scottianstewart" target="_blank"><img src="assets/instagram.png"></a>
+      <a href="http://linkedin.com/in/scottianstewart" target="_blank"><img src="assets/linkedin.png"></a>
+    </div>
+  </div>
 </body>
