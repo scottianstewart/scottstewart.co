@@ -15,7 +15,7 @@ i {
 
 .body--active {
   border: 16px solid #fff;
-  background: #2F3031;
+  background: #fbfbfb;
   transition: all .5s linear;
   opacity: 1;
 }
