@@ -4,7 +4,7 @@ html {
 
 .body {
     border: 16px solid #fff;
-    background: #2F3031;
+    background: #fbfbfb;
     transition: all .5s linear;
     opacity: 0;
 }
@@ -32,7 +32,7 @@ body .em {
   max-width: 600px;
   margin: 60px auto;
   padding: 0 20px;
-  color: #fff;
+  color: #333;
 }
 
 .section {
@@ -74,7 +74,7 @@ li {
 }
 
 a {
-  color: #fff;
+  color: #333;
 }
 
 a:hover {
