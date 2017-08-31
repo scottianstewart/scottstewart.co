@@ -1,5 +1,5 @@
 html {
-  background: black;
+  background: white;
 }
 
 .body {
@@ -28,7 +28,7 @@ body .em {
   max-width: 1200px;
   margin: 60px auto;
   padding: 0 20px;
-  color: white;
+  color: black;
 }
 
 .section {
