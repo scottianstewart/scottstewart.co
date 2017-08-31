@@ -3,14 +3,14 @@ html {
 }
 
 .body {
-    background: black;
+    background: white;
     transition: all .1s ease-in;
     transform: translateY(10px);
     opacity: 0;
 }
 
 .body--active {
-  background: black;
+  background: white;
   transition: all .1s ease-in;
   transform: translateY(0);
   opacity: 1;
