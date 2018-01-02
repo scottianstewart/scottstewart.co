@@ -1,9 +1,10 @@
 html {
-  background: white;
+  background: #fbfbfb;
+  border: 20px solid white;
 }
 
 .body {
-    background: white;
+    background: #fbfbfb;
     transition: all .1s ease-in;
     transform: translateY(10px);
     opacity: 0;
