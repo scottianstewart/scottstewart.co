@@ -1,17 +1,18 @@
 html {
-  background: #fbfbfb;
   border: 20px solid white;
 }
 
+html, .body--active {
+  background-color: #FFF6E8;
+}
+
 .body {
-    background: #fbfbfb;
     transition: all .1s ease-in;
     transform: translateY(10px);
     opacity: 0;
 }
 
 .body--active {
-  background: #fbfbfb;
   transition: all .1s ease-in;
   transform: translateY(0);
   opacity: 1;
