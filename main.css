@@ -1,9 +1,5 @@
-html {
-  border: 20px solid white;
-}
-
 html, .body--active {
-  background-color: #FFF6E8;
+  background-color: #fbfbfb;
 }
 
 .body {
