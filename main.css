@@ -1,5 +1,5 @@
 html, .body--active {
-  background-color: #2c347d;
+  background-color: white;
 }
 
 .body {
@@ -26,7 +26,7 @@ body .em {
   max-width: 1200px;
   margin: 60px auto;
   padding: 0 20px;
-  color: eb7a7f;
+  color: #333;
 }
 
 .section {
