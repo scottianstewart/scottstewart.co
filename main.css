@@ -22,6 +22,14 @@ body .em {
   opacity: 1;
 }
 
+img {
+  transition: all .2s;
+}
+
+img:hover {
+  transform: rotate(180deg);
+}
+
 .content {
   max-width: 1200px;
   margin: 60px auto;
@@ -90,7 +98,7 @@ li {
 }
 
 a {
-  color: eb7a7f;
+  color: #eb7a7f;
 }
 
 a:hover {
