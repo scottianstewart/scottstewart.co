@@ -2,8 +2,11 @@ html, .body--active {
   background-color: white;
 }
 
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
 .body {
-    font-family: 'Helvetica', sans-serif;
     transition: all .1s ease-in;
     transform: translateY(10px);
     opacity: 0;
